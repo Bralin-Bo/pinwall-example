@@ -81,6 +81,11 @@ body {
   font-size: 14px;
   line-height: 22px;
 }
+@media (max-width: 650px) {
+  body {
+    font-size: 20px;
+  }
+}
 
 .btn {
   padding: 10px 25px;
@@ -124,6 +129,11 @@ body {
     max-width: 600px;
   }
 }
+@media (max-width: 650px) {
+  .container {
+    max-width: 400px;
+  }
+}
 
 .intro {
   background-image: url("../img/bgintro.png");
@@ -133,6 +143,11 @@ body {
 @media (max-width: 840px) {
   .intro {
     height: 500px;
+  }
+}
+@media (max-width: 650px) {
+  .intro {
+    height: 670px;
   }
 }
 
@@ -273,6 +288,11 @@ body {
     width: 550px;
   }
 }
+@media (max-width: 650px) {
+  .menu {
+    width: 370px;
+  }
+}
 
 .content {
   text-align: center;
@@ -348,6 +368,11 @@ body {
     height: 45px;
   }
 }
+@media (max-width: 650px) {
+  .brends__item {
+    height: 30px;
+  }
+}
 
 .thanks {
   height: 375px;
@@ -376,6 +401,11 @@ body {
   text-align: center;
   margin: 50px 0;
 }
+@media (max-width: 650px) {
+  .thanks {
+    height: 450px;
+  }
+}
 
 .info {
   height: 300px;
@@ -385,6 +415,11 @@ body {
 @media (max-width: 840px) {
   .info {
     height: 420px;
+  }
+}
+@media (max-width: 650px) {
+  .info {
+    height: 650px;
   }
 }
 
@@ -479,6 +514,11 @@ body {
     margin: 45px auto 0 auto;
   }
 }
+@media (max-width: 650px) {
+  .contact {
+    max-width: 400px;
+  }
+}
 
 input {
   width: 350px;
@@ -487,6 +527,11 @@ input {
   border: 1px solid #d8d8d8;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+}
+@media (max-width: 650px) {
+  input {
+    width: 300px;
+  }
 }
 
 input:focus {
@@ -508,6 +553,11 @@ textarea {
   border: 1px solid #d8d8d8;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+}
+@media (max-width: 650px) {
+  textarea {
+    width: 300px;
+  }
 }
 
 textarea:focus {
