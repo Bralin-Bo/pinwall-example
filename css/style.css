@@ -134,6 +134,11 @@ body {
     max-width: 400px;
   }
 }
+@media (max-width: 450px) {
+  .container {
+    max-width: 300px;
+  }
+}
 
 .intro {
   background-image: url("../img/bgintro.png");
@@ -148,6 +153,11 @@ body {
 @media (max-width: 650px) {
   .intro {
     height: 670px;
+  }
+}
+@media (max-width: 450px) {
+  .intro {
+    height: 600px;
   }
 }
 
@@ -293,6 +303,11 @@ body {
     width: 370px;
   }
 }
+@media (max-width: 450px) {
+  .menu {
+    width: 270px;
+  }
+}
 
 .content {
   text-align: center;
@@ -309,6 +324,11 @@ body {
 @media (max-width: 840px) {
   .content__icon {
     margin: 0 40px 50px 0;
+  }
+}
+@media (max-width: 450px) {
+  .content__icon {
+    height: 60px;
   }
 }
 .content__text {
@@ -353,6 +373,16 @@ body {
           justify-content: space-between;
   height: 120px;
 }
+@media (max-width: 450px) {
+  .brends__items {
+    height: 80px;
+  }
+}
+@media (max-width: 450px) {
+  .brends__items {
+    height: 40px;
+  }
+}
 .brends__item {
   opacity: 0.2;
   margin: auto;
@@ -373,6 +403,16 @@ body {
     height: 30px;
   }
 }
+@media (max-width: 450px) {
+  .brends__item {
+    height: 20px;
+  }
+}
+@media (max-width: 450px) {
+  .brends {
+    height: 40px;
+  }
+}
 
 .thanks {
   height: 375px;
@@ -388,6 +428,12 @@ body {
 @media (max-width: 840px) {
   .thanks__title {
     margin: 50px auto 30px auto;
+  }
+}
+@media (max-width: 450px) {
+  .thanks__title {
+    margin: 30px auto 20px auto;
+    line-height: 40px;
   }
 }
 .thanks__content {
@@ -406,6 +452,11 @@ body {
     height: 450px;
   }
 }
+@media (max-width: 450px) {
+  .thanks {
+    height: 520px;
+  }
+}
 
 .info {
   height: 300px;
@@ -420,6 +471,11 @@ body {
 @media (max-width: 650px) {
   .info {
     height: 650px;
+  }
+}
+@media (max-width: 450px) {
+  .info {
+    height: 750px;
   }
 }
 
@@ -437,6 +493,11 @@ body {
 .infobox__title {
   font-size: 24px;
   line-height: 34px;
+}
+@media (max-width: 450px) {
+  .infobox__title {
+    line-height: 30px;
+  }
 }
 .infobox__text {
   margin-top: 20px;
@@ -519,6 +580,11 @@ body {
     max-width: 400px;
   }
 }
+@media (max-width: 450px) {
+  .contact {
+    max-width: 300px;
+  }
+}
 
 input {
   width: 350px;
@@ -531,6 +597,13 @@ input {
 @media (max-width: 650px) {
   input {
     width: 300px;
+  }
+}
+@media (max-width: 450px) {
+  input {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 250px;
   }
 }
 
@@ -557,6 +630,12 @@ textarea {
 @media (max-width: 650px) {
   textarea {
     width: 300px;
+  }
+}
+@media (max-width: 450px) {
+  textarea {
+    margin-left: 20px;
+    width: 250px;
   }
 }
 
